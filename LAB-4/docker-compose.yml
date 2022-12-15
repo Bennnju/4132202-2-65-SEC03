@@ -6,7 +6,7 @@ services:
     volumes:
       - ./www:/var/www/html
     ports: 
-         - 8000:80
+         - 4000:80
   db:
     image: mysql:5.7.40
     ports:
